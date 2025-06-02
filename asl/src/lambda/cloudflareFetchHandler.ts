@@ -36,7 +36,7 @@ export const handler = async (event: any): Promise<LambdaResponse> => {
 
     try {
         const { id, connectorParams } = event;
-        const bearerToken = 'QXDe4BmrYtYR7poGBp6INlMTDYGLZ5CEYn6HLk0U'; // hardcoded token replace with actaul token when deploying to AWS
+        const bearerToken = 'your-token'; // hardcoded token replace with actaul token when deploying to AWS
 
         console.log('[CLOUDFLARE FETCH] Processing organization:', {
             orgId: id,
