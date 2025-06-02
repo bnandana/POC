@@ -1,0 +1,9 @@
+{
+  "name": "lambda-functions",
+  "version": "1.0.0",
+  "description": "Lambda functions for the workflow",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.0.0",
+    "axios": "^1.6.0"
+  }
+} 
